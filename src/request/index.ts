@@ -4,7 +4,6 @@ import { GlobalStore } from "../stores";
 import { ref } from 'vue'
 import { ElMessage, ElLoading  } from 'element-plus'
 const store = GlobalStore();
-console.log(import.meta);
 
 // 创建一个 axios 实例
 const service = axios.create({
